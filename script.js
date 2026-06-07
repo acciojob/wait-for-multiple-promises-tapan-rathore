@@ -8,7 +8,7 @@ output.innerHTML=
         </tr>`
 
 function createPromise() {
-	const time = Math.floor(Math.random()*2+1);
+	const time = Math.floor(Math.random()*3)+1;
 
 	return new Promise((resolve)=>{
 		setTimeout(()=>{
